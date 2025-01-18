@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+input,button,h1{
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+}
+li{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    background-color:  #fff;
+    border: 1px solid black;
+    margin-bottom: 30px ;
+}
+.Complete{
+    text-decoration: line-through;
+    color: #888;
+}
+.Task-Button{
+    display: flex;
+    gap: 10px;
+}
+.Task-Button button{
+    padding: 5px 10px;
+
+}
